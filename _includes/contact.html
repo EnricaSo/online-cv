@@ -91,5 +91,11 @@
     </li>
     {% endif %}
 
+    {% if sidebar.orcid %}
+    <li class="phone"><i class="fas fa-passport"></i>
+      <a href="https://orcid.org/{{sidebar.orcid}}" target="_blank">{{ sidebar.orcid }}</a>
+    </li>
+    {% endif %}
+
   </ul>
 </div><!--//contact-container-->

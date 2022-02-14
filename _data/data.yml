@@ -3,191 +3,146 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Enrica Soria
+    tagline: Robotics Engineer, Ph.D.
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: enrica.s92@gmail.com
+    phone: +41 76 XXX XX 61
+    citizenship: Italian
+    linkedin: enrica-soria-05735b109
+    github: EnricaSo
+    orcid: 0000-0002-1364-6439
 
     languages:
-      - idiom: English
+      - idiom: Italian
         level: Native
+
+      - idiom: English
+        level: Professional
 
       - idiom: French
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: German
+        level: Elementary proficiency
 
     interests:
-      - item: Climbing
+      - item: Karate (black belt)
         link:
 
-      - item: Snowboarding
+      - item: Rock 'n roll dancing
         link:
 
-      - item: Cooking
+      - item: Diving (PADI open water license)
         link:
 
 career-profile:
     title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Ph.D. Thesis in Robotics, Control, and Intelligent Systems
+      university: EPFL (Lausanne, Switzerland)
+      time: 2018 - 2022
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        - Thesis title: “Predictive control of aerial swarms”
+        - Courses: Business concepts training by Innosuisse; Design of experiments; Aerial robotics; State-of-the-art techniques in neuroscience
+        - Extra-curricular courses: Deep Neural Networks with PyTorch (Coursera)
+        - Other roles: Ph.D. student representative in 2020-2021
+        - Keywords: Convex optimization; Data-driven control; Model predictive control; Genetic optimization; Vision-based systems; Physical modelling; 3D modelling; Adaptive control; Physical simulation; Data analysis.
+
+    - degree: M.Sc. in Mathematical Engineering (double degree)
+      university: Polytechnic of Turin and Polytechnic of Milan (Italy)
+      time: 2014 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Score: 110/110 with honors.
+        - Specialization in ‘Physical Modelling and Simulation’;
+        - Main courses: Statistical models; Discrete events models; Stochastic processes; Business analysis; Nonlinear systems for engineering applications; Linear systems and control theory; Convex optimization; Object-oriented programming;
+        - Extra-curricular courses: Machine Learning A-Z (Udemy).
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Ph.D. Research Assistant
+      time: 2018 - 2022
+      company: EPFL, Laboratory of Intelligent Systems (Lausanne, Switzerland)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - Advisor: Prof. Dario Floreano;
+        - Potential field-based control of aerial swarms with genetically-optimized adaptive parameters;
+        - Data-driven and Model Predictive Control of aerial drone swarms in cluttered environments;
+        - Scalability of vision-based drone swarms.
+
+    - role: R&D Engineer
+      time: 04/2017 - 10/2017
+      company: Amadeus IT Group (Sophia Antipolis, France)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Advisor: Jeremie Barlet;
+        - Definition of the security access system and computation of the services access metrics;
+        - Implementation of a big-data monitoring system based on ElasticSearch and Kibana.
+    - role: R&D Intern
+      time: 05/2016 - 01/2017
+      company: Sensefly (Lausanne, Switzerland)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Advisors: Dr. Arnaud Gelas, Prof. Paolo Brandimarte;
+        - M.Sc. thesis title: “Clustering algorithms for 3D surface splitting problems”;
+        - Tasks: design and implementation of a C++ algorithm for optimally splitting a wide area to be mapped by a professional drone for cartography.
+
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Fondation Pacte, “La technique c’est pour elle”
+        video: https://www.youtube.com/embed/QAeD02aUGvg
+      - title: NCCR Women campaign
+        video: https://www.youtube.com/embed/4gnHaUgVnPg
+      - title: Honor program Alta Scuola Politecnica - Drone technology for monitoring glaciers and water resources
+        details: |
+          - Tasks: collection and analysis of temporal and geographical data series; creation and analysis of DSMs;
+          - Roles: team leader and budget supervisor;
+          - Courses: Digital Innovations; Design methods and processes; The energy question.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Distributed predictive drone swarms in cluttered environments
+        link: https://ieeexplore.ieee.org/document/9562281
+        authors: Enrica Soria, Fabrizio Schiano, and Dario Floreano
+        conference: IEEE Robotics and Automation Letters (RA-L), vol. 7, no. 1, pages 73-80, 2022
+        video: https://www.youtube.com/embed/1Vg1jdw2Ruk
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Predictive control of aerial swarms in cluttered environments
+        link: https://www.nature.com/articles/s42256-021-00341-y
+        video: https://www.youtube.com/embed/cAXUKNGpMG4
+        authors: Enrica Soria, Fabrizio Schiano, and Dario Floreano
+        conference: Nature Machine Intelligence, vol. 3, pages 545–554,  2021
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: SwarmLab - a MATLAB drone swarm simulator
+        link: https://arxiv.org/abs/2005.02769
+        authors: Enrica Soria, Fabrizio Schiano, and Dario Floreano
+        conference: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Las Vegas, 2020
+
+      - title: The influence of limited visual sensing on the Reynolds ﬂocking algorithm
+        link: https://ieeexplore.ieee.org/document/8675652
+        authors: Enrica Soria, Fabrizio Schiano, and Dario Floreano
+        conference: The Third IEEE International Conference on Robotic Computing (IRC), Naples, 2019
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Physical modelling & Control of systems
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Software Developement (C++, Python)
         level: 98%
 
-      - name: Angular
+      - name: Optimization (Matlab/Simulink, numpy, matplotlib, osqp, Casadi, tensorflow, pytorch, acados, acado)
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Data acquisition and processing (SQL, pandas)
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Video editing and illustration (Inkscape, Adobe Illustrator, Photoshop, Premiere Pro, Blender)
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

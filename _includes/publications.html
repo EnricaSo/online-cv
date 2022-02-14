@@ -25,6 +25,9 @@
     {% endif %}
     <div class="publication-authors">{{ publication.authors }}</div>
     <div class="publication-conference">{{ publication.conference }}</div>
+    {% if publication.video %}
+    <iframe width="560" height="315" src="{{ publication.video }}" title="{{ publication.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
   </div><!--//item-->
   {% endfor %}
 
